@@ -1,9 +1,30 @@
+# Core frameworks
 streamlit>=1.28.0
-langchain>=0.1.0
-langchain-community>=0.0.10
-langchain-openai>=0.0.5
-youtube-transcript-api>=0.6.0
-faiss-cpu>=1.7.4
-python-dotenv>=1.0.0
-tiktoken>=0.5.0
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+langchain-pinecone>=0.2.0
+
+# AI and ML
 openai>=1.0.0
+tiktoken>=0.5.0
+
+# Vector databases - Pinecone only
+pinecone>=7.0.0
+
+# Document processing with LangChain loaders
+docx2txt>=0.8  # For Docx2txtLoader
+pypdf>=3.0.0   # For PyPDFLoader
+python-dotenv>=1.0.0
+
+# YouTube processing
+youtube-transcript-api>=0.6.0
+
+# Pydantic v2 compatibility
+pydantic>=2.0.0
+
+# Additional utilities
+requests>=2.31.0
+numpy>=1.24.0
+pandas>=2.0.0
